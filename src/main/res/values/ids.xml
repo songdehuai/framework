@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+    <item type="id" name="root_view" />
+    <item type="id" name="bgaqrcode_camera_preview" />
+    <item type="id" name="sl_item_pos"/>
+</resources>

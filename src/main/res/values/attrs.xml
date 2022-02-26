@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme切换 -->
+    <declare-styleable name="arc">
+        <attr name="arcHeight" format="dimension" />
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleView">
+        <attr name="title" format="string"></attr>
+        <attr name="lineHeight" format="dimension|reference"></attr>
+        <attr name="rightText" format="string"></attr>
+        <attr name="rightImg" format="reference"></attr>
+        <attr name="rigBackground" format="reference"></attr>
+        <attr name="titleMode">
+            <flag name="Text" value="0" />
+            <flag name="Img" value="1" />
+            <flag name="None" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="GalleryRecyclerView">
+        <attr name="helper" format="string">
+            <enum name="LinearSnapHelper" value="0" />
+            <enum name="PagerSnapHelper" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>
