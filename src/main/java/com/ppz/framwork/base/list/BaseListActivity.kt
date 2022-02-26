@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.ppz.framwork.global.Constant
-import com.wcxk.framework.R
+import com.ppz.framework.R
 import com.ppz.framwork.base.BaseActivity
 import com.ppz.framwork.base.BaseListBean
 import com.ppz.framwork.base.list.adapter.BaseListAdapter

@@ -86,8 +86,6 @@ dependencies {
     api 'com.google.code.gson:gson:2.8.8'
     api 'com.github.getActivity:GsonFactory:5.2'
 
-    api 'com.github.getActivity:XXPermissions:13.2'
-
     api 'com.tencent:mmkv-static:1.2.11'
 
     api 'com.blankj:utilcodex:1.31.0'

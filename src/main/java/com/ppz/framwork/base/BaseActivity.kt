@@ -13,7 +13,7 @@ import com.ppz.framwork.ext.toast
 import com.ppz.framwork.ext.ui
 import com.ppz.framwork.tools.StatusBarUtil
 import com.ppz.framwork.tools.dialog.LoadDialog
-import com.wcxk.framework.R
+import com.ppz.framework.R
 import kotlinx.coroutines.*
 
 open class BaseActivity : AppCompatActivity(), CoroutineScope by CoroutineScope(Dispatchers.Main) {

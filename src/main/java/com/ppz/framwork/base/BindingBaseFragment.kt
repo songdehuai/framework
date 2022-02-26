@@ -8,7 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import com.ppz.framwork.App
-import com.wcxk.framework.R
+import com.ppz.framework.R
 import com.ppz.framwork.ext.toast
 import kotlinx.coroutines.*
 
