@@ -59,6 +59,10 @@ open class BaseActivity : AppCompatActivity(), CoroutineScope by CoroutineScope(
             if (rootView != null) {
                 rootView.setPadding(0, App.statusHeight, 0, 0)
             }
+            val paddingView = findViewById<View>(R.id.padding_view)
+            if (rootView != null) {
+                paddingView.setPadding(0, App.statusHeight, 0, 0)
+            }
         }
     }
 

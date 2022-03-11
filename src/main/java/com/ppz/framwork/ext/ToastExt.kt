@@ -57,9 +57,9 @@ fun Any?.tip(type: TipType, isIcon: Boolean = false) {
         }
     }
     if (isIcon) {
-        ToastUtils.make().setBgColor(color).setGravity(Gravity.CENTER or Gravity.CENTER_HORIZONTAL, 0, 0).setTopIcon(topIcon).setTextColor(Color.WHITE).show(this.toString())
+        ToastUtils.make().setBgColor(color).setTopIcon(topIcon).setTextColor(Color.WHITE).show(this.toString())
     } else {
-        ToastUtils.make().setBgColor(color).setGravity(Gravity.CENTER or Gravity.CENTER_HORIZONTAL, 0, 0).setTextColor(Color.WHITE).show(this.toString())
+        ToastUtils.make().setBgColor(color).setTextColor(Color.WHITE).show(this.toString())
     }
 
 }
