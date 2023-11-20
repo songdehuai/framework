@@ -1,6 +1,6 @@
 ### 使用方法：
 
 ```shell
-  git submodule add  http://wolf.dscloud.me:777/songdehuai/framework.git
+  git submodule add  git@github.com:songdehuai/framework.git
 ```
     
