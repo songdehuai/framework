@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleView">
+        <attr name="title" format="string" />
+        <attr name="lineHeight" format="dimension|reference" />
+        <attr name="rightText" format="string" />
+        <attr name="rightImg" format="reference" />
+        <attr name="leftImg" format="reference" />
+        <attr name="rigBackground" format="reference" />
+        <attr name="checkText" format="string" />
+        <attr name="titleMode">
+            <flag name="Text" value="0" />
+            <flag name="Img" value="1" />
+            <flag name="None" value="2" />
+            <flag name="Check" value="3" />
+            <flag name="Button" value="4" />
+        </attr>
+    </declare-styleable>
+
+</resources>

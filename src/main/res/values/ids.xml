@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+    <item type="id" name="root_view" />
+    <item type="id" name="padding_view" />
+    <item type="id" name="bgaqrcode_camera_preview" />
+    <item type="id" name="sl_item_pos"/>
+    <item name="BaseQuickAdapter_viewholder_support" type="id"/>
+    <item name="BaseQuickAdapter_swiping_support" type="id"/>
+    <item name="BaseQuickAdapter_dragging_support" type="id"/>
+    <item name="BaseQuickAdapter_databinding_support" type="id"/>
+
+    <item name="immersion_status_bar_view" type="id" />
+    <item name="immersion_navigation_bar_view" type="id" />
+    <item name="immersion_fits_layout_overlap" type="id" />
+    <item name="action_bar_container" type="id" />
+</resources>
